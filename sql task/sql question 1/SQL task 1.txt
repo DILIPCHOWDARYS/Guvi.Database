@@ -1,4 +1,4 @@
-Table insertion
+**Table insertion**
 
 
 create table Emp1 (
@@ -27,26 +27,26 @@ insert into Emp1 (empno, ename, job, mgr, hiredate, sal, comm, deptno) VALUES
 select * from Emp1;
 
 
-A-query
+**A-query**
 
 select ename,sal from Emp1 where sal>=2200;
 
-B-query
+**B-query**
 
 select * from Emp1 where comm is null;
 
-C-query
+**C-query**
 
 select ename,sal from Emp1 where sal<2500 or sal>4000;
 
-D-query
+**D-query**
 
 select ename,job,sal from Emp1 where mgr is null;
 
-E-query
+**E-query**
 
 select ename from Emp1 where ename like '__A%';
 
-F-query
+**F-query**
 
 select ename from Emp1 where ename like '__T%';
